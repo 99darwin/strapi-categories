@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "hero",
+  "info": {
+    "name": "hero",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "hero": {
+      "collection": "category",
+      "via": "product"
+    },
+    "title": {
+      "multiple": false,
+      "type": "string"
+    }
+  }
+}
